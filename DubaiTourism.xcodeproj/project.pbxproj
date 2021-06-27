@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300115D02678105600AF938F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300115CF2678105600AF938F /* MapViewController.swift */; };
+		30FCA9642675DB7F00AE0D03 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCA9632675DB7F00AE0D03 /* ScrollViewController.swift */; };
+		30FEC09426713A9F00E6D74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC09326713A9F00E6D74B /* AppDelegate.swift */; };
+		30FEC09626713A9F00E6D74B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC09526713A9F00E6D74B /* SceneDelegate.swift */; };
+		30FEC09826713A9F00E6D74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC09726713A9F00E6D74B /* ViewController.swift */; };
+		30FEC09B26713A9F00E6D74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FEC09926713A9F00E6D74B /* Main.storyboard */; };
+		30FEC09D26713AA000E6D74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FEC09C26713AA000E6D74B /* Assets.xcassets */; };
+		30FEC0A026713AA000E6D74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FEC09E26713AA000E6D74B /* LaunchScreen.storyboard */; };
+		30FEC0A92671463A00E6D74B /* Information_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC0A82671463A00E6D74B /* Information_ViewController.swift */; };
+		30FEC0AC26714A1E00E6D74B /* itemsReq_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC0AB26714A1E00E6D74B /* itemsReq_ViewController.swift */; };
+		30FEC0B22672ABCF00E6D74B /* Main_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEC0B12672ABCF00E6D74B /* Main_ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300115CF2678105600AF938F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		30FCA9632675DB7F00AE0D03 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		30FEC09026713A9E00E6D74B /* DubaiTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubaiTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FEC09326713A9F00E6D74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30FEC09526713A9F00E6D74B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30FEC09726713A9F00E6D74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FEC09A26713A9F00E6D74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FEC09C26713AA000E6D74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FEC09F26713AA000E6D74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FEC0A126713AA000E6D74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FEC0A82671463A00E6D74B /* Information_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information_ViewController.swift; sourceTree = "<group>"; };
+		30FEC0AB26714A1E00E6D74B /* itemsReq_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsReq_ViewController.swift; sourceTree = "<group>"; };
+		30FEC0B12672ABCF00E6D74B /* Main_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FEC08D26713A9E00E6D74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FEC08726713A9E00E6D74B = {
+			isa = PBXGroup;
+			children = (
+				30FEC09226713A9E00E6D74B /* DubaiTourism */,
+				30FEC09126713A9E00E6D74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FEC09126713A9E00E6D74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FEC09026713A9E00E6D74B /* DubaiTourism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FEC09226713A9E00E6D74B /* DubaiTourism */ = {
+			isa = PBXGroup;
+			children = (
+				30FEC09326713A9F00E6D74B /* AppDelegate.swift */,
+				30FEC09526713A9F00E6D74B /* SceneDelegate.swift */,
+				30FEC09726713A9F00E6D74B /* ViewController.swift */,
+				30FEC09926713A9F00E6D74B /* Main.storyboard */,
+				300115CF2678105600AF938F /* MapViewController.swift */,
+				30FEC0B12672ABCF00E6D74B /* Main_ViewController.swift */,
+				30FCA9632675DB7F00AE0D03 /* ScrollViewController.swift */,
+				30FEC0A82671463A00E6D74B /* Information_ViewController.swift */,
+				30FEC0AB26714A1E00E6D74B /* itemsReq_ViewController.swift */,
+				30FEC09C26713AA000E6D74B /* Assets.xcassets */,
+				30FEC09E26713AA000E6D74B /* LaunchScreen.storyboard */,
+				30FEC0A126713AA000E6D74B /* Info.plist */,
+			);
+			path = DubaiTourism;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FEC08F26713A9E00E6D74B /* DubaiTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FEC0A426713AA000E6D74B /* Build configuration list for PBXNativeTarget "DubaiTourism" */;
+			buildPhases = (
+				30FEC08C26713A9E00E6D74B /* Sources */,
+				30FEC08D26713A9E00E6D74B /* Frameworks */,
+				30FEC08E26713A9E00E6D74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DubaiTourism;
+			productName = DubaiTourism;
+			productReference = 30FEC09026713A9E00E6D74B /* DubaiTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FEC08826713A9E00E6D74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					30FEC08F26713A9E00E6D74B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 30FEC08B26713A9E00E6D74B /* Build configuration list for PBXProject "DubaiTourism" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FEC08726713A9E00E6D74B;
+			productRefGroup = 30FEC09126713A9E00E6D74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FEC08F26713A9E00E6D74B /* DubaiTourism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FEC08E26713A9E00E6D74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FEC0A026713AA000E6D74B /* LaunchScreen.storyboard in Resources */,
+				30FEC09D26713AA000E6D74B /* Assets.xcassets in Resources */,
+				30FEC09B26713A9F00E6D74B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FEC08C26713A9E00E6D74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FEC09826713A9F00E6D74B /* ViewController.swift in Sources */,
+				30FEC0AC26714A1E00E6D74B /* itemsReq_ViewController.swift in Sources */,
+				30FEC09426713A9F00E6D74B /* AppDelegate.swift in Sources */,
+				30FCA9642675DB7F00AE0D03 /* ScrollViewController.swift in Sources */,
+				30FEC0A92671463A00E6D74B /* Information_ViewController.swift in Sources */,
+				30FEC09626713A9F00E6D74B /* SceneDelegate.swift in Sources */,
+				30FEC0B22672ABCF00E6D74B /* Main_ViewController.swift in Sources */,
+				300115D02678105600AF938F /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30FEC09926713A9F00E6D74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FEC09A26713A9F00E6D74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30FEC09E26713AA000E6D74B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FEC09F26713AA000E6D74B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FEC0A226713AA000E6D74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FEC0A326713AA000E6D74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FEC0A526713AA000E6D74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DubaiTourism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pruthvi-Raj-Dudam.DubaiTourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FEC0A626713AA000E6D74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DubaiTourism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pruthvi-Raj-Dudam.DubaiTourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FEC08B26713A9E00E6D74B /* Build configuration list for PBXProject "DubaiTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FEC0A226713AA000E6D74B /* Debug */,
+				30FEC0A326713AA000E6D74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FEC0A426713AA000E6D74B /* Build configuration list for PBXNativeTarget "DubaiTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FEC0A526713AA000E6D74B /* Debug */,
+				30FEC0A626713AA000E6D74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FEC08826713A9E00E6D74B /* Project object */;
+}
